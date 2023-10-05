@@ -1,18 +1,20 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gabarito', cursive;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
     color: #333;
+    display: flex;
 }
 
 .container {
-    max-width: 400px;
+    width: 400px;
     margin: 0 auto;
-    padding: 20px;
+    margin-top: 200px;
+    padding: 24px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -21,28 +23,57 @@ h1 {
     margin: 0 0 20px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 label {
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    font-family: 'Gabarito', cursive;
+    color: #777777;
+    width: 366px;
+    padding: 16px;
+    margin-bottom: 0px;
+    border: 1px solid #cccccc7d;
+    border-radius: 8px;
 }
 
 button {
-    background-color: #007BFF;
+    width: 100%;
+    background-color: #6200ff;
+    font-family: 'Gabarito', cursive;
+    font-size: 16px;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
+    margin-top: 16px;
+    padding: 16px 20px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #4a00c0;
+}
+
+/*Estilos pagina de confirmación*/
+
+.confirmation-container {
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 48px 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.confirmation-tile {
+    color: rgb(0, 173, 66);
 }
